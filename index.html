@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京油そば本舗 名古屋総本店</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>東京油そば本舗 名古屋総本店</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="menu.html">メニュー</a></li>
+                <li><a href="access.html">アクセス</a></li>
+                <li><a href="eat.html">食べ方(how to eat)</a></li>
+                <li><a href="index.html#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>店舗情報</h2>
+        <p>東京油そば本舗 名古屋総本店へようこそ！当店は、こだわりの油そばを提供する専門店です。新鮮な食材と秘伝のタレを使った美味しい油そばをお楽しみください。</p>
+        <img src="650x450_17309162.jpg" alt="店舗の写真">
+    </section>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <input type="submit" value="送信">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 東京油そば本舗 名古屋総本店</p>
+    </footer>
+</body>
+</html>
